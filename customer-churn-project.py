@@ -61,7 +61,6 @@ final_outcome = pd.DataFrame({'model':['logistic_regression','decision_tree','ra
                               'precision':[65.83,47.54,62.54],
                               'f1':[60.91,48.35,54.73],
                               'recall':[56.68,49.19,48.66]})
-
 print(final_outcome)
 
 #viusal chart of all metrics through pandas
