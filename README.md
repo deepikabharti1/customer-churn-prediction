@@ -43,7 +43,7 @@ Predicts whether a telecom customer will churn (leave the company) from their de
 - Encode the full dataset before splitting so train and test columns always match
 
 ## Tech stack
-Python, pandas, scikit-learn
+Python, pandas, scikit-learn, numpy, matplotlib
 
 ## How to run
 ```bash
