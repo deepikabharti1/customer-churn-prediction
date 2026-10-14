@@ -1,6 +1,6 @@
 # Customer Churn Prediction (Telco)
 
-Predicts whether a telecom customer will churn (leave the company) from their demographics, services and billing details. Compares three classification models: Logistic Regression, Decision Tree and Random Forest.
+Predicts whether a telecom customer will churn (leave the company) from their demographics, services and billing details. Compares three classification models to see which model is giving better perdictions: Logistic Regression, Decision Tree and Random Forest.
 
 ## Dataset
 - IBM sample Telco Customer Churn data, from Kaggle: [blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
