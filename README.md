@@ -34,6 +34,9 @@ Predicts whether a telecom customer will churn (leave the company) from their de
 - **The Decision Tree overfits** and is the weakest model on every metric.
 - **Recall is the weak spot.** Every model has recall below 60%, meaning it misses a large share of customers who actually churn. Since catching churners is the business goal, accuracy alone flatters the models: predicting "no churn" for everyone would already score about 73%.
 
+## business conclusion 
+  churn predictions helps identify at-risk customers and design targeted retention offers.
+  
 ## Possible improvements
 - Handle class imbalance with `class_weight="balanced"` or SMOTE to raise recall
 - Tune the decision threshold and report ROC-AUC and PR-AUC
