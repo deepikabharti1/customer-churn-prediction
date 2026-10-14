@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score , precision_score ,f1_score, recall_score
 from sklearn.metrics import confusion_matrix
-
+ 
 df=pd.read_csv(r"\WA_Fn-UseC_-Telco-Customer-Churn.csv")
 print(df.head(5))
 print(df.isnull().sum())
