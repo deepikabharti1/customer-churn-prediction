@@ -64,6 +64,7 @@ final_outcome = pd.DataFrame({'model':['logistic_regression','decision_tree','ra
 
 print(final_outcome)
 
+#viusal chart of all metrics through pandas
 final_outcome = pd.DataFrame({'model':['logistic_regression','decision_tree','random_forest'],
                               'accuracy':[80.69,72.10,78.63],
                               'precision':[65.83,47.54,62.54],
@@ -77,7 +78,7 @@ plt.ylabel('score(%)')
 plt.savefig("model_comparison.png", dpi=150, bbox_inches="tight")
 plt.show()
 
-
+#visual chart of accuracy_score through matplotlib
 models=['logistic_regression','decision_tree','random_forest']
 accuracy=[80.69,72.10,78.63]
 precision=[65.83,47.54,62.54]
